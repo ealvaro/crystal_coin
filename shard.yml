@@ -1,0 +1,16 @@
+name: crystal_coin
+version: 0.1.0
+
+authors:
+  - Alvaro Escobar <alvaroescobaronline@gmail.com>
+
+targets:
+  crystal_coin:
+    main: src/crystal_coin.cr
+
+crystal: '>= 1.11.2'
+
+license: MIT
+dependencies:
+  kemal:
+    github: kemalcr/kemal
